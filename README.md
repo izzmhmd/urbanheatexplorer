@@ -1,7 +1,7 @@
 # 🌡️ Indonesia Urban Heat Explorer
 
 <p align="left">
-  <!-- Status Badge -->
+  <!-- Status Badges -->
   <a href="https://ee-izzmhmd53.projects.earthengine.app/view/urban-heat-explorer">
     <img src="https://img.shields.io/badge/Access_Here-0F9D58?style=for-the-badge&logo=google&logoColor=white" height="38" alt="Access Here">
   </a>
@@ -16,51 +16,51 @@
   </a>
 </p>
 
-**Indonesia Urban Heat Explorer** adalah platform WebGIS interaktif berbasis *cloud computing* (Google Earth Engine) untuk pemantauan, analisis, dan visualisasi dinamika *Land Surface Temperature* (LST) serta fenomena *Urban Heat Island* (UHI) di seluruh wilayah administratif Indonesia.
+**Indonesia Urban Heat Explorer** is an interactive cloud computing-based WebGIS platform (built on Google Earth Engine) for monitoring, analyzing, and visualizing Land Surface Temperature (LST) dynamics and Urban Heat Island (UHI) phenomena across all administrative levels in Indonesia.
 
 ---
 
-## 📌 Fitur Utama
+## 📌 Key Features
 
-- **🗺️ Region of Interest (ROI) Selector**: Memungkinkan analisis hierarkis dari tingkat Nasional, Provinsi, Kabupaten/Kota, hingga Kecamatan (menggunakan batas administratif FAO GAUL/GADM).
-- **📅 Automatic & Flexible Date Selector**: Pemilihan rentang waktu observasi LST berbasis bulanan (*monthly aggregation*) secara otomatis.
+- **🗺️ Region of Interest (ROI) Selector**: Enables hierarchical analysis from National, Provincial, Regency/City, down to District/Sub-district levels (utilizing FAO GAUL / GADM administrative boundaries).
+- **📅 Automatic & Flexible Date Selector**: Automated monthly LST observation time-frame selection (*monthly aggregation*).
 - **📊 Information Charts & Visual Analytics**:
   - *Time Series LST Chart*
-  - *Mean LST & UHI Chart* per wilayah
-  - *Area of Urban Heat* per wilayah
-  - *Estimated Population Affected* oleh dampak UHI
-- **📍 Location Point Inspection**: Klik langsung pada peta untuk menampilkan grafik deret waktu (time series) suhu di koordinat spesifik.
-- **🎥 Map Visualizations & Animations**: Ekspor dan visualisasi dinamika animasi spasial suhu permukaan tanah.
+  - *Mean LST & UHI Chart* per region
+  - *Area of Urban Heat* per region
+  - *Estimated Population Affected* by urban heat impacts
+- **📍 Location Point Inspection**: Click directly on the map to display a time-series temperature chart for a specific coordinate.
+- **🎥 Map Visualizations & Animations**: Export and visualize spatial dynamics of land surface temperature through animated maps.
 
 ---
 
-## 📡 Dataset yang Digunakan
+## 📡 Datasets Used
 
 1. **MODIS Terra Land Surface Temperature (MOD11A1.061)**
-   - *Resolusi Spasial*: 1 km
-   - *Fungsi*: Ekstraksi LST dan analisis nilai ambang batas UHI skala regional.
+   - *Spatial Resolution*: 1 km
+   - *Function*: LST extraction and regional-scale UHI threshold analysis.
 2. **WorldPop Global Project Population Data**
-   - *Resolusi Spasial*: 100 m
-   - *Fungsi*: Estimasi jumlah populasi yang terdampak oleh paparan panas perkotaan.
-3. **Batas Administratif (FAO GAUL / GADM)**
-   - *Fungsi*: Pilihan cakupan area kajian tingkat Provinsi hingga Kecamatan.
+   - *Spatial Resolution*: 100 m
+   - *Function*: Estimation of the population affected by urban heat exposure.
+3. **Administrative Boundaries (FAO GAUL / GADM)**
+   - *Function*: Spatial boundaries selection from Provincial to District levels.
 
 ---
 
-## 🚀 Cara Mengakses Aplikasi
+## 🚀 How to Access the Application
 
-Kamu dapat langsung mencoba WebGIS App tanpa perlu menginstal aplikasi tambahan di PC/Laptop melalui tautan berikut:
+You can access and explore the WebGIS App directly without installing any additional software on your PC/Desktop via the following link:
 
-👉 **[Akses Web App Urban Heat Explorer](https://ee-izzmhmd53.projects.earthengine.app/view/urban-heat-explorer)**
+👉 **[Access Urban Heat Explorer Web App](https://ee-izzmhmd53.projects.earthengine.app/view/urban-heat-explorer)**
 
-> 💡 **Saran Penggunaan**: Disarankan mengakses melalui browser di PC/Laptop dengan koneksi internet yang stabil untuk pengalaman visualisasi peta dan grafik yang maksimal.
+> 💡 **Usage Recommendation**: Accessing via a desktop/laptop browser with a stable internet connection is highly recommended for an optimal map visualization and chart interaction experience.
 
 ---
 
-## 🛠️ Penggunaan Kode (Google Earth Engine)
+## 🛠️ Code Usage (Google Earth Engine)
 
-Jika kamu ingin mengembangkan atau menjalankan skrip ini secara lokal di **Google Earth Engine Code Editor**:
+If you wish to develop or run this script locally in the **Google Earth Engine Code Editor**:
 
-1. Buka [Google Earth Engine Code Editor](https://code.earthengine.google.com/).
-2. Buat skrip baru, lalu salin isi file `app.js` atau `main.js` dari repositori ini.
-3. Klik **Run** untuk menjalankan aplikasi.
+1. Open [Google Earth Engine Code Editor](https://code.earthengine.google.com/).
+2. Create a new script, then copy and paste the contents of `app.js` or `main.js` from this repository.
+3. Click **Run** to execute the application.
