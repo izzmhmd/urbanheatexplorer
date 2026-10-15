@@ -11,6 +11,9 @@
   <a href="https://github.com/izzmhmd/urbanheatexplorer/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" height="38" alt="License">
   </a>
+  <a href="https://youtu.be/5ab2leqzgTw?si=wDzeLcqE98kgOjo5">
+    <img src="https://img.shields.io/badge/Watch_Tutorial-FF0000?style=for-the-badge&logo=youtube&logoColor=white" height="38" alt="Watch Tutorial Video">
+  </a>
 </p>
 
 **Indonesia Urban Heat Explorer** adalah platform WebGIS interaktif berbasis *cloud computing* (Google Earth Engine) untuk pemantauan, analisis, dan visualisasi dinamika *Land Surface Temperature* (LST) serta fenomena *Urban Heat Island* (UHI) di seluruh wilayah administratif Indonesia.
